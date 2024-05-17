@@ -1,0 +1,335 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\Users\SA2236\Desktop\lbbb3\lb_fsm_quartus\DE1-SoC_Computer_15_audio_only\verilog\Computer_System.qsys --block-symbol-file --output-directory=C:\Users\SA2236\Desktop\lbbb3\lb_fsm_quartus\DE1-SoC_Computer_15_audio_only\verilog\Computer_System --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading verilog/Computer_System.qsys
+Progress: Reading input file
+Progress: Adding ARM_A9_HPS [altera_hps 18.1]
+Progress: Parameterizing module ARM_A9_HPS
+Progress: Adding AV_Config [altera_up_avalon_audio_and_video_config 18.0]
+Progress: Parameterizing module AV_Config
+Progress: Adding Audio_Subsystem [Audio_Subsystem 1.0]
+Progress: Reading input file
+Progress: Adding Audio [altera_up_avalon_audio 15.0]
+Warning: Audio: Used altera_up_avalon_audio 18.0 (instead of 15.0)
+Progress: Parameterizing module Audio
+Progress: Adding Audio_PLL [altera_up_avalon_audio_pll 15.0]
+Warning: Audio_PLL: Used altera_up_avalon_audio_pll 18.0 (instead of 15.0)
+Progress: Parameterizing module Audio_PLL
+Progress: Adding Sys_Clk [clock_source 15.0]
+Warning: Sys_Clk: Used clock_source 18.1 (instead of 15.0)
+Progress: Parameterizing module Sys_Clk
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Progress: Parameterizing module Audio_Subsystem
+Progress: Adding Bus_master_audio [altera_up_external_bus_to_avalon_bridge 18.0]
+Progress: Parameterizing module Bus_master_audio
+Progress: Adding System_PLL [altera_up_avalon_sys_sdram_pll 18.0]
+Progress: Parameterizing module System_PLL
+Progress: Adding collide_finish [altera_avalon_pio 18.1]
+Progress: Parameterizing module collide_finish
+Progress: Adding init_finish [altera_avalon_pio 18.1]
+Progress: Parameterizing module init_finish
+Progress: Adding init_ship [altera_avalon_pio 18.1]
+Progress: Parameterizing module init_ship
+Progress: Adding move_trace_finish [altera_avalon_pio 18.1]
+Progress: Parameterizing module move_trace_finish
+Progress: Adding n0_from_hps [altera_avalon_pio 18.1]
+Progress: Parameterizing module n0_from_hps
+Progress: Adding ne_from_hps [altera_avalon_pio 18.1]
+Progress: Parameterizing module ne_from_hps
+Progress: Adding nn_from_hps [altera_avalon_pio 18.1]
+Progress: Parameterizing module nn_from_hps
+Progress: Adding nne_from_hps [altera_avalon_pio 18.1]
+Progress: Parameterizing module nne_from_hps
+Progress: Adding nnw_from_hps [altera_avalon_pio 18.1]
+Progress: Parameterizing module nnw_from_hps
+Progress: Adding ns_from_hps [altera_avalon_pio 18.1]
+Progress: Parameterizing module ns_from_hps
+Progress: Adding nse_from_hps [altera_avalon_pio 18.1]
+Progress: Parameterizing module nse_from_hps
+Progress: Adding nsw_from_hps [altera_avalon_pio 18.1]
+Progress: Parameterizing module nsw_from_hps
+Progress: Adding nw_from_hps [altera_avalon_pio 18.1]
+Progress: Parameterizing module nw_from_hps
+Progress: Adding pipes [altera_avalon_pio 18.1]
+Progress: Parameterizing module pipes
+Progress: Adding print_finish [altera_avalon_pio 18.1]
+Progress: Parameterizing module print_finish
+Progress: Adding reset_lb [altera_avalon_pio 18.1]
+Progress: Parameterizing module reset_lb
+Progress: Adding ship_x [altera_avalon_pio 18.1]
+Progress: Parameterizing module ship_x
+Progress: Adding ship_y [altera_avalon_pio 18.1]
+Progress: Parameterizing module ship_y
+Progress: Adding speed_color_finish [altera_avalon_pio 18.1]
+Progress: Parameterizing module speed_color_finish
+Progress: Adding start_collide [altera_avalon_pio 18.1]
+Progress: Parameterizing module start_collide
+Progress: Adding start_init [altera_avalon_pio 18.1]
+Progress: Parameterizing module start_init
+Progress: Adding start_move_trace [altera_avalon_pio 18.1]
+Progress: Parameterizing module start_move_trace
+Progress: Adding start_print [altera_avalon_pio 18.1]
+Progress: Parameterizing module start_print
+Progress: Adding start_speed_color [altera_avalon_pio 18.1]
+Progress: Parameterizing module start_speed_color
+Progress: Adding start_stream [altera_avalon_pio 18.1]
+Progress: Parameterizing module start_stream
+Progress: Adding stream_finish [altera_avalon_pio 18.1]
+Progress: Parameterizing module stream_finish
+Progress: Adding test_data [altera_avalon_pio 18.1]
+Progress: Parameterizing module test_data
+Progress: Adding ux_from_hps [altera_avalon_pio 18.1]
+Progress: Parameterizing module ux_from_hps
+Progress: Adding ux_in [altera_avalon_pio 18.1]
+Progress: Parameterizing module ux_in
+Progress: Adding uy_from_hps [altera_avalon_pio 18.1]
+Progress: Parameterizing module uy_from_hps
+Progress: Adding uy_in [altera_avalon_pio 18.1]
+Progress: Parameterizing module uy_in
+Progress: Adding write_address_init [altera_avalon_pio 18.1]
+Progress: Parameterizing module write_address_init
+Progress: Adding x_fish1 [altera_avalon_pio 18.1]
+Progress: Parameterizing module x_fish1
+Progress: Adding x_fish2 [altera_avalon_pio 18.1]
+Progress: Parameterizing module x_fish2
+Progress: Adding y_fish1 [altera_avalon_pio 18.1]
+Progress: Parameterizing module y_fish1
+Progress: Adding y_fish2 [altera_avalon_pio 18.1]
+Progress: Parameterizing module y_fish2
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: Computer_System.ARM_A9_HPS: HPS Main PLL counter settings: n = 0  m = 73
+Info: Computer_System.ARM_A9_HPS: HPS peripherial PLL counter settings: n = 0  m = 39
+Warning: Computer_System.ARM_A9_HPS: "Configuration/HPS-to-FPGA user 0 clock frequency" (desired_cfg_clk_mhz) requested 100.0 MHz, but only achieved 97.368421 MHz
+Warning: Computer_System.ARM_A9_HPS: "QSPI clock frequency" (desired_qspi_clk_mhz) requested 400.0 MHz, but only achieved 370.0 MHz
+Warning: Computer_System.ARM_A9_HPS: 1 or more output clock frequencies cannot be achieved precisely, consider revising desired output clock frequencies.
+Info: Computer_System.System_PLL: Refclk Freq: 50.0
+Info: Computer_System.collide_finish: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: Computer_System.init_finish: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: Computer_System.move_trace_finish: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: Computer_System.pipes: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: Computer_System.print_finish: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: Computer_System.speed_color_finish: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: Computer_System.stream_finish: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: Computer_System.ux_in: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: Computer_System.uy_in: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\SA2236\Desktop\lbbb3\lb_fsm_quartus\DE1-SoC_Computer_15_audio_only\verilog\Computer_System.qsys --synthesis=VERILOG --output-directory=C:\Users\SA2236\Desktop\lbbb3\lb_fsm_quartus\DE1-SoC_Computer_15_audio_only\verilog\Computer_System\synthesis --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading verilog/Computer_System.qsys
+Progress: Reading input file
+Progress: Adding ARM_A9_HPS [altera_hps 18.1]
+Progress: Parameterizing module ARM_A9_HPS
+Progress: Adding AV_Config [altera_up_avalon_audio_and_video_config 18.0]
+Progress: Parameterizing module AV_Config
+Progress: Adding Audio_Subsystem [Audio_Subsystem 1.0]
+Progress: Parameterizing module Audio_Subsystem
+Progress: Adding Bus_master_audio [altera_up_external_bus_to_avalon_bridge 18.0]
+Progress: Parameterizing module Bus_master_audio
+Progress: Adding System_PLL [altera_up_avalon_sys_sdram_pll 18.0]
+Progress: Parameterizing module System_PLL
+Progress: Adding collide_finish [altera_avalon_pio 18.1]
+Progress: Parameterizing module collide_finish
+Progress: Adding init_finish [altera_avalon_pio 18.1]
+Progress: Parameterizing module init_finish
+Progress: Adding init_ship [altera_avalon_pio 18.1]
+Progress: Parameterizing module init_ship
+Progress: Adding move_trace_finish [altera_avalon_pio 18.1]
+Progress: Parameterizing module move_trace_finish
+Progress: Adding n0_from_hps [altera_avalon_pio 18.1]
+Progress: Parameterizing module n0_from_hps
+Progress: Adding ne_from_hps [altera_avalon_pio 18.1]
+Progress: Parameterizing module ne_from_hps
+Progress: Adding nn_from_hps [altera_avalon_pio 18.1]
+Progress: Parameterizing module nn_from_hps
+Progress: Adding nne_from_hps [altera_avalon_pio 18.1]
+Progress: Parameterizing module nne_from_hps
+Progress: Adding nnw_from_hps [altera_avalon_pio 18.1]
+Progress: Parameterizing module nnw_from_hps
+Progress: Adding ns_from_hps [altera_avalon_pio 18.1]
+Progress: Parameterizing module ns_from_hps
+Progress: Adding nse_from_hps [altera_avalon_pio 18.1]
+Progress: Parameterizing module nse_from_hps
+Progress: Adding nsw_from_hps [altera_avalon_pio 18.1]
+Progress: Parameterizing module nsw_from_hps
+Progress: Adding nw_from_hps [altera_avalon_pio 18.1]
+Progress: Parameterizing module nw_from_hps
+Progress: Adding pipes [altera_avalon_pio 18.1]
+Progress: Parameterizing module pipes
+Progress: Adding print_finish [altera_avalon_pio 18.1]
+Progress: Parameterizing module print_finish
+Progress: Adding reset_lb [altera_avalon_pio 18.1]
+Progress: Parameterizing module reset_lb
+Progress: Adding ship_x [altera_avalon_pio 18.1]
+Progress: Parameterizing module ship_x
+Progress: Adding ship_y [altera_avalon_pio 18.1]
+Progress: Parameterizing module ship_y
+Progress: Adding speed_color_finish [altera_avalon_pio 18.1]
+Progress: Parameterizing module speed_color_finish
+Progress: Adding start_collide [altera_avalon_pio 18.1]
+Progress: Parameterizing module start_collide
+Progress: Adding start_init [altera_avalon_pio 18.1]
+Progress: Parameterizing module start_init
+Progress: Adding start_move_trace [altera_avalon_pio 18.1]
+Progress: Parameterizing module start_move_trace
+Progress: Adding start_print [altera_avalon_pio 18.1]
+Progress: Parameterizing module start_print
+Progress: Adding start_speed_color [altera_avalon_pio 18.1]
+Progress: Parameterizing module start_speed_color
+Progress: Adding start_stream [altera_avalon_pio 18.1]
+Progress: Parameterizing module start_stream
+Progress: Adding stream_finish [altera_avalon_pio 18.1]
+Progress: Parameterizing module stream_finish
+Progress: Adding test_data [altera_avalon_pio 18.1]
+Progress: Parameterizing module test_data
+Progress: Adding ux_from_hps [altera_avalon_pio 18.1]
+Progress: Parameterizing module ux_from_hps
+Progress: Adding ux_in [altera_avalon_pio 18.1]
+Progress: Parameterizing module ux_in
+Progress: Adding uy_from_hps [altera_avalon_pio 18.1]
+Progress: Parameterizing module uy_from_hps
+Progress: Adding uy_in [altera_avalon_pio 18.1]
+Progress: Parameterizing module uy_in
+Progress: Adding write_address_init [altera_avalon_pio 18.1]
+Progress: Parameterizing module write_address_init
+Progress: Adding x_fish1 [altera_avalon_pio 18.1]
+Progress: Parameterizing module x_fish1
+Progress: Adding x_fish2 [altera_avalon_pio 18.1]
+Progress: Parameterizing module x_fish2
+Progress: Adding y_fish1 [altera_avalon_pio 18.1]
+Progress: Parameterizing module y_fish1
+Progress: Adding y_fish2 [altera_avalon_pio 18.1]
+Progress: Parameterizing module y_fish2
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: Computer_System.ARM_A9_HPS: HPS Main PLL counter settings: n = 0  m = 73
+Info: Computer_System.ARM_A9_HPS: HPS peripherial PLL counter settings: n = 0  m = 39
+Warning: Computer_System.ARM_A9_HPS: "Configuration/HPS-to-FPGA user 0 clock frequency" (desired_cfg_clk_mhz) requested 100.0 MHz, but only achieved 97.368421 MHz
+Warning: Computer_System.ARM_A9_HPS: "QSPI clock frequency" (desired_qspi_clk_mhz) requested 400.0 MHz, but only achieved 370.0 MHz
+Warning: Computer_System.ARM_A9_HPS: 1 or more output clock frequencies cannot be achieved precisely, consider revising desired output clock frequencies.
+Info: Computer_System.System_PLL: Refclk Freq: 50.0
+Info: Computer_System.collide_finish: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: Computer_System.init_finish: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: Computer_System.move_trace_finish: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: Computer_System.pipes: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: Computer_System.print_finish: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: Computer_System.speed_color_finish: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: Computer_System.stream_finish: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: Computer_System.ux_in: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: Computer_System.uy_in: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: Computer_System: Generating Computer_System "Computer_System" for QUARTUS_SYNTH
+Warning: ARM_A9_HPS.f2h_irq0: Cannot connect clock for irq_mapper.sender
+Warning: ARM_A9_HPS.f2h_irq0: Cannot connect reset for irq_mapper.sender
+Warning: ARM_A9_HPS.f2h_irq1: Cannot connect clock for irq_mapper_001.sender
+Warning: ARM_A9_HPS.f2h_irq1: Cannot connect reset for irq_mapper_001.sender
+Info: ARM_A9_HPS: "Running  for module: ARM_A9_HPS"
+Info: ARM_A9_HPS: HPS Main PLL counter settings: n = 0  m = 73
+Info: ARM_A9_HPS: HPS peripherial PLL counter settings: n = 0  m = 39
+Warning: ARM_A9_HPS: "Configuration/HPS-to-FPGA user 0 clock frequency" (desired_cfg_clk_mhz) requested 100.0 MHz, but only achieved 97.368421 MHz
+Warning: ARM_A9_HPS: "QSPI clock frequency" (desired_qspi_clk_mhz) requested 400.0 MHz, but only achieved 370.0 MHz
+Warning: ARM_A9_HPS: 1 or more output clock frequencies cannot be achieved precisely, consider revising desired output clock frequencies.
+Info: ARM_A9_HPS: "Computer_System" instantiated altera_hps "ARM_A9_HPS"
+Info: AV_Config: Starting Generation of Audio and Video Config
+Info: AV_Config: "Computer_System" instantiated altera_up_avalon_audio_and_video_config "AV_Config"
+Info: Audio_Subsystem: "Computer_System" instantiated Audio_Subsystem "Audio_Subsystem"
+Info: Bus_master_audio: Starting Generation of External Bus to Avalon Bridge
+Info: Bus_master_audio: "Computer_System" instantiated altera_up_external_bus_to_avalon_bridge "Bus_master_audio"
+Info: System_PLL: "Computer_System" instantiated altera_up_avalon_sys_sdram_pll "System_PLL"
+Info: collide_finish: Starting RTL generation for module 'Computer_System_collide_finish'
+Info: collide_finish:   Generation command is [exec C:/programs/intelfpga/18.1/quartus/bin64/perl/bin/perl.exe -I C:/programs/intelfpga/18.1/quartus/bin64/perl/lib -I C:/programs/intelfpga/18.1/quartus/sopc_builder/bin/europa -I C:/programs/intelfpga/18.1/quartus/sopc_builder/bin/perl_lib -I C:/programs/intelfpga/18.1/quartus/sopc_builder/bin -I C:/programs/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/programs/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/programs/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=Computer_System_collide_finish --dir=C:/Users/SA2236/AppData/Local/Temp/alt9853_581457210064495791.dir/0004_collide_finish_gen/ --quartus_dir=C:/programs/intelfpga/18.1/quartus --verilog --config=C:/Users/SA2236/AppData/Local/Temp/alt9853_581457210064495791.dir/0004_collide_finish_gen//Computer_System_collide_finish_component_configuration.pl  --do_build_sim=0  ]
+Info: collide_finish: Done RTL generation for module 'Computer_System_collide_finish'
+Info: collide_finish: "Computer_System" instantiated altera_avalon_pio "collide_finish"
+Info: init_ship: Starting RTL generation for module 'Computer_System_init_ship'
+Info: init_ship:   Generation command is [exec C:/programs/intelfpga/18.1/quartus/bin64/perl/bin/perl.exe -I C:/programs/intelfpga/18.1/quartus/bin64/perl/lib -I C:/programs/intelfpga/18.1/quartus/sopc_builder/bin/europa -I C:/programs/intelfpga/18.1/quartus/sopc_builder/bin/perl_lib -I C:/programs/intelfpga/18.1/quartus/sopc_builder/bin -I C:/programs/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/programs/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/programs/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=Computer_System_init_ship --dir=C:/Users/SA2236/AppData/Local/Temp/alt9853_581457210064495791.dir/0005_init_ship_gen/ --quartus_dir=C:/programs/intelfpga/18.1/quartus --verilog --config=C:/Users/SA2236/AppData/Local/Temp/alt9853_581457210064495791.dir/0005_init_ship_gen//Computer_System_init_ship_component_configuration.pl  --do_build_sim=0  ]
+Info: init_ship: Done RTL generation for module 'Computer_System_init_ship'
+Info: init_ship: "Computer_System" instantiated altera_avalon_pio "init_ship"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_008: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_009: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_010: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_011: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_012: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_013: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_014: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_015: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_016: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_017: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_018: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_019: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_020: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_021: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_022: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_023: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_024: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_025: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_026: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_027: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_028: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_029: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_030: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_031: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_032: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_033: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_034: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_035: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_036: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_037: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "Computer_System" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "Computer_System" instantiated altera_irq_mapper "irq_mapper"
+Info: irq_mapper_001: "Computer_System" instantiated altera_irq_mapper "irq_mapper_001"
+Info: rst_controller: "Computer_System" instantiated altera_reset_controller "rst_controller"
+Info: fpga_interfaces: "ARM_A9_HPS" instantiated altera_interface_generator "fpga_interfaces"
+Info: hps_io: "ARM_A9_HPS" instantiated altera_hps_io "hps_io"
+Info: Audio: Starting Generation of Audio Controller
+Info: Audio: "Audio_Subsystem" instantiated altera_up_avalon_audio "Audio"
+Info: Audio_PLL: "Audio_Subsystem" instantiated altera_up_avalon_audio_pll "Audio_PLL"
+Info: sys_pll: "System_PLL" instantiated altera_pll "sys_pll"
+Info: reset_from_locked: "System_PLL" instantiated altera_up_avalon_reset_from_locked_signal "reset_from_locked"
+Info: Bus_master_audio_avalon_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "Bus_master_audio_avalon_master_translator"
+Info: Audio_Subsystem_audio_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "Audio_Subsystem_audio_slave_translator"
+Info: ARM_A9_HPS_h2f_lw_axi_master_agent: "mm_interconnect_0" instantiated altera_merlin_axi_master_ni "ARM_A9_HPS_h2f_lw_axi_master_agent"
+Info: Bus_master_audio_avalon_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "Bus_master_audio_avalon_master_agent"
+Info: Audio_Subsystem_audio_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "Audio_Subsystem_audio_slave_agent"
+Info: Audio_Subsystem_audio_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "Audio_Subsystem_audio_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
+Info: router_004: "mm_interconnect_0" instantiated altera_merlin_router "router_004"
+Info: ARM_A9_HPS_h2f_lw_axi_master_wr_limiter: "mm_interconnect_0" instantiated altera_merlin_traffic_limiter "ARM_A9_HPS_h2f_lw_axi_master_wr_limiter"
+Info: Reusing file C:/Users/SA2236/Desktop/lbbb3/lb_fsm_quartus/DE1-SoC_Computer_15_audio_only/verilog/Computer_System/synthesis/submodules/altera_avalon_sc_fifo.v
+Info: Audio_Subsystem_audio_slave_burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "Audio_Subsystem_audio_slave_burst_adapter"
+Info: Reusing file C:/Users/SA2236/Desktop/lbbb3/lb_fsm_quartus/DE1-SoC_Computer_15_audio_only/verilog/Computer_System/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file C:/Users/SA2236/Desktop/lbbb3/lb_fsm_quartus/DE1-SoC_Computer_15_audio_only/verilog/Computer_System/synthesis/submodules/altera_avalon_st_pipeline_base.v
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_002: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_002"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_001"
+Info: Reusing file C:/Users/SA2236/Desktop/lbbb3/lb_fsm_quartus/DE1-SoC_Computer_15_audio_only/verilog/Computer_System/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_001"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/Users/SA2236/Desktop/lbbb3/lb_fsm_quartus/DE1-SoC_Computer_15_audio_only/verilog/Computer_System/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_002: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_002"
+Info: Reusing file C:/Users/SA2236/Desktop/lbbb3/lb_fsm_quartus/DE1-SoC_Computer_15_audio_only/verilog/Computer_System/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: border: "hps_io" instantiated altera_interface_generator "border"
+Info: audio_pll: "Audio_PLL" instantiated altera_pll "audio_pll"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: Computer_System: Done "Computer_System" with 42 modules, 120 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
