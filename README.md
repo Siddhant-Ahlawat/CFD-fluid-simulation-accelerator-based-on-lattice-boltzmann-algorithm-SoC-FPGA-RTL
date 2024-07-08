@@ -4,7 +4,8 @@
 
 
 
-https://github.com/Siddhant-Ahlawat/fluid-simulation-accelerator-based-on-lattice-boltzmann-algorithm/assets/82876080/c6a02bb3-bfda-47e9-82f5-669b16d3527b
+https://github.com/Siddhant-Ahlawat/fluid-simulation-accelerator-based-on-lattice-boltzmann-algorithm/assets/82876080/9b553366-33c1-4a19-86c9-1ebb2f727f77
+
 
 
 
