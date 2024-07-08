@@ -1,4 +1,13 @@
 # Fluid simulation accelerator on Intel Cyclone V FPGA based on Lattice Boltzmann Algorithm
+## Accelerator 1 
+
+
+
+
+https://github.com/Siddhant-Ahlawat/fluid-simulation-accelerator-based-on-lattice-boltzmann-algorithm/assets/82876080/c6a02bb3-bfda-47e9-82f5-669b16d3527b
+
+
+
 ## Introduction
 In this project we have built a fluid simulation-based fishing videogame and implemented it using two different hardware acceleration approaches on the Dec1-Soc development board. The fluid is modeled using the lattice Boltzmann algorithm as it provides a good approximation of fluid physics and can be easily parallelized on an FPGA. The Challenge of this project was to create a hardware accelerator for the fluid simulation to make it more real time and appropriate for the gameplay. The acceleration reached by the two accelerators were x1.2 and x53 respectively with the limiting resource being memory.
 ### Projective objectives
